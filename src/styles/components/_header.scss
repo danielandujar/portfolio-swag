@@ -1,0 +1,47 @@
+.header {
+    max-width: 100vw;
+    display: flex;
+
+    &__logo-box{
+        margin: 2rem;
+    }
+
+    &__logo {
+        height: 4rem;
+    }
+
+    &__locale-box {
+        margin: 2rem;
+        margin-left: auto;
+    }
+
+    &__flag {
+        height: 2rem;
+    }
+
+    &__nav {
+        display: flex;
+        list-style: none;
+        margin-right: 4rem;
+        justify-self: stretch;
+        justify-content: center;
+
+        &-item {
+            margin: 2rem 1rem;
+            font-size: 1.6rem;
+
+        }
+        &-link {
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 100;
+            padding: 1rem 2rem;
+            color:white;
+            transition: all .2s;
+
+            &:hover {
+                background-color: rgba(white, .2);
+            }
+        }
+    }
+}

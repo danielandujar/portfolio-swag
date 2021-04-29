@@ -1,0 +1,147 @@
+{
+    "menu" : {
+      "home" : {
+        "order" : 0,
+        "show_as_icon" : true,
+        "icon_path" : "/logo.png",
+        "menu_text_string" : "menu_home_text"
+      },
+      "about" : {
+        "order" : 1,
+        "show_as_icon" : false,
+        "icon_path" : "",
+        "menu_text_string" : "menu_about_text"
+      },
+      "portfolio" : {
+        "order" : 2,
+        "show_as_icon" : false,
+        "icon_path" : "",
+        "menu_text_string" : "menu_portfolio_text"
+      },
+      "education" : {
+        "order" : 3,
+        "show_as_icon" : false,
+        "icon_path" : "",
+        "menu_text_string" : "menu_education_text"
+      },
+      "experience" : {
+        "order" : 4,
+        "show_as_icon" : false,
+        "icon_path" : "",
+        "menu_text_string" : "menu_experience_text"
+      },
+      "contact" : {
+        "order" : 5,
+        "show_as_icon" : false,
+        "icon_path" : "",
+        "menu_text_string" : "menu_contact_text"
+      }
+    }, 
+    "strings" : {
+      "EN" : {
+        "menu_home_text" : "Home",
+        "menu_about_text" : "About",
+        "menu_portfolio_text" : "Portfolio",
+        "menu_education_text" : "Education",
+        "menu_experience_text" : "Experience",
+        "menu_contact_text" : "Contact"
+      },
+      "ES" : {},
+      "FR" : {}
+    },
+    "locales" : {
+      "EN" : {
+        "flag_icon" : "/flags/us.png",
+        "default" : true
+      },
+      "ES" : {
+        "flag_icon" : "/flags/es.png",
+        "default" : false
+      },
+      "FR" : {
+        "flag_icon" : "/flags/fr.png",
+        "default" : false
+      }
+    },
+    "content" : {
+      "home" : {
+        "name" : "Daniel Andujar",
+        "title-string" : "content-home-title" 
+      },
+      "about" : {
+        "about-title-string" : "content-about-title",
+        "about-text-string" : "content-about-text"
+      },
+      "portfolio" : {
+        "portfolio-title-string" : "content-portfolio-title",
+        "android" : [],
+        "xamarin" : [],
+        "unity" : [],
+        "ios" : [],
+        "react" : []
+      },
+      "education" : {
+        "education-title-string" : "content-education-title",
+        "education-formal-string" : "content-education-formal",
+        "education-certifications-string" : "content-education-certifications",
+        "education-other-string" : "content-education-other",
+        "education-formal-array" : [],
+        "education-certs-array" : [],
+        "education-other-array" : []
+      },
+      "experience" : {
+        "experience-title-string" : "content-experience-title",
+        "experience-list" : [
+            {
+              "job-title-string" : "content-xp-title-freelance",
+              "company-string" : "content-xp-company-freelance",
+              "start-date" : "12-2018",
+              "end-date" : "",
+              "current" : true,
+              "responsibilities-string" : "content-xp-desc-freelance",
+              "tech-stack" : []
+            },
+            {
+              "job-title-string" : "content-xp-title-cry",
+              "company" : "content-xp-company-cry",
+              "start-date" : "01-2012",
+              "end-date" : "",
+              "current" : true,
+              "responsibilities-string" : "content-xp-desc-cry",
+              "tech-stack" : []
+            },
+            {
+              "job-title-string" : "content-xp-title-mapfre",
+              "company" : "content-xp-company-mapfre",
+              "start-date" : "04-2014",
+              "end-date" : "01-2019",
+              "current" : false,
+              "responsibilities-string" : "content-xp-desc-mafre",
+              "tech-stack" : []
+            },
+            {
+              "job-title-string" : "content-xp-title-eis",
+              "company" : "content-xp-company-eis",
+              "start-date" : "02-2012",
+              "end-date" : "04-2014",
+              "current" : false,
+              "responsibilities-string" : "content-xp-desc-eis",
+              "tech-stack" : []
+            },
+            {
+              "job-title-string" : "content-xp-title-wepsys",
+              "company" : "content-xp-company-wepsys",
+              "start-date" : "10-2011",
+              "end-date" : "02-2012",
+              "current" : false,
+              "responsibilities-string" : "content-xp-desc-wepsys",
+              "tech-stack" : []
+            }
+          ]
+      },
+      "contact" : {
+        "contact-title-string" : "content-contact-title",
+        "contact-button-string" : "content-contact-button"
+      }
+    }
+  }

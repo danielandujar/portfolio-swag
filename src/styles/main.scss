@@ -1,0 +1,32 @@
+//BASE
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+
+//COMPONENTS
+@import "components/footer";
+@import "components/header";
+
+//LAYOUTS
+//@import "layouts/"
+
+//PAGES
+@import "pages/about";
+@import "pages/contact";
+@import "pages/education";
+@import "pages/home";
+@import "pages/portfolio";
+@import "pages/work";
+
+//THEMES
+//@import "themes/"
+
+//UTILS
+@import "utils/mixins";
+@import "utils/utilities";
+@import "utils/variables";
+
+//VENDORS
+//@import "vendors/"
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200,300,400,500&display=swap');

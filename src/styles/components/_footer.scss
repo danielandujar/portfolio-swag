@@ -1,0 +1,39 @@
+.footer {
+    //position: absolute;
+    //bottom:0;
+    width: 100vw;
+    padding: 3rem;
+    display: flex;
+    
+    &__icons {
+        margin-left: auto;
+        list-style: none;
+        display: flex;
+        justify-items: center;
+    }
+    // &__icon {
+        
+    // }
+
+    &__social {
+        &--icon {
+            fill: white;
+            width: 3rem;
+            height: 3rem;
+        }
+
+        &--link {
+            padding: 3rem;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+            }
+
+            &:hover,
+            &:active {
+                background-color: rgba(white, .2);
+            }
+        }
+    }
+}

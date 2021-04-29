@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    width: 80vw;
+    justify-self: center;
+
+    &__title {
+        color: white;
+        margin-right:5rem;
+        
+    }
+
+    &__separator {
+        height: 50rem;
+        width: 2px;
+        background-color: white;
+    }
+}

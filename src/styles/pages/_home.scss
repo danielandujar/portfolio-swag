@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    margin-left: 10rem;
+
+    &__logo-box {
+        margin: 2rem;
+    }
+
+    &__content {
+    }
+
+    &__content-name {
+        
+    }
+
+    &__content-job-title {
+
+    }
+
+    
+}
+
+.btn-resume {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 100px;
+    border: 2px solid white; 
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.btn-cv {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem 4rem;
+    border-radius: 100px;
+    border: 2px solid white; 
+    font-size: 2rem;
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+    font-family: sans-serif;
+}

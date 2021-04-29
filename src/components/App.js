@@ -1,25 +1,37 @@
-import React from 'react';
-import logo from '../styles/logo.svg';
-import '../styles/App.css';
+import React, {useState, useEffect} from 'react'
+import Header from './Header'
+import Container from './Container'
+import Footer from './Footer'
+import menuService from '../services/menu'
+import stringsService from '../services/strings'
 
 function App() {
+  const [menu, setMenu] = useState([])
+  const [strings, setStrings] = useState([])
+
+  useEffect(() => {
+    menuService
+          .getAll()
+          .then(menu => {
+            console.log(menu)
+            setMenu(menu)
+          })
+  }, [])
+
+  useEffect(() => {
+    stringsService
+          .getAll('EN')
+          .then(strList => {
+            console.log(strList)
+            setStrings(strList)
+          })
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Something <code>cool</code> is comming. <br/>
-          <code>Stay tuned</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app"> 
+      <Header menu={menu} strings={strings} />
+      <Container />
+      <Footer />
     </div>
   );
 }
